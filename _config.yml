@@ -19,7 +19,7 @@ disqus_shortname: mochapenguin
 favicon:     "/images/favicon.ico"
 aboutme: Hope you find my blog useful. # these are shown on aboutme-sidebar.
 aboutme_photo: https://goo.gl/8Nif4y # your photo.
-google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-96394455-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
