@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.highlight {
+  background-color: #ffff66;
+  font-weight: bold;
+}
+
+@media print {
+  .column-right-outer {
+    display: none;
+  }
+  .main-inner .columns {
+    padding-right: 0;
+  }
+}
