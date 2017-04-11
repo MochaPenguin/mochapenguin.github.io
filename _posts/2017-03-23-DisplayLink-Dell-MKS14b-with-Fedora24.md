@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "DisplayLink - Dell MKS14b dock with Fedora 24"
 author: MochaPenguin
@@ -10,6 +10,12 @@ tags:
 ---
 
 Very pleased to report success on connecting my TP300LA running Fedora 24 to a USB 3.0 DisplayLink dock. This would be a very handy way of connecting monitors. At present I can only use the laptop with a monitor connected to its HDMI port.
+
+Here's a little teaser before we look at the details:
+
+![image-title](https://goo.gl/LlcVDR?.png){:class="github"}
+
+![image-title](https://goo.gl/ujuXR4?.png){:class="github"}
 
 OS - Fedora 24 running kernel 4.9.13-101.fc24.x86_64
 
@@ -110,22 +116,20 @@ disconnecting the USB cable from the dock
 
 # Screenshots
 
-![Connected to a secondary monitor](https://lh3.googleusercontent.com/uLuib-awiK9hRE5_dFu5Q_vPhlNaGrwxC3jeZrFHRHHAr3RxNLKD9kXNObIlxj6lJjzzfu19a9TTiL_pxlyKkboIXBwj8KE04jD2xkzWi-E71BOQB18UehBwKJHrtxDmaKSCMh9jZyhCd6eSrLmpGWeOjQrO7cstSlx73dkFKJGGLS1eHp2Dr2WSVYCezhiiUtUoMoQZb0ckHQVLhbOvwZwoWm1WjGhyn04On5dPd6RXBmcsyemv_rQPl2oqHavL_jOslZkyKTua-ONm8lWw2Xkoo1IRSnl1eXYu9ycec_eL0tcVEddUMMdT6ZQOm5oKD_Ju9ejp1lj30XyyBkZ8HsQLYgdIHZu-UNYmV44DpLKeeF0p77UlkniA1HvSIA_VPKKFcaoVqr4XEI6w7Ce0uYufIItK9f0IPWQWMUyYqp0gAVV8ztLw57pZw8Gol9phZ9pCPU4bUT45H9kWQf1UkSpXqAm8oik4MkdA0AVC9-m3AsutC8g_gQRVsNAPdIX7nsBBDSjFJuEuNt18tf_HdgG39alnp9DINaIVQRv2F7FFM_1dRWkWQxZnuxWEgmUK_kdCIeB9aRfbBCaMhpi5WT6ULHH9yLmZiL66tkA4wf_gL-fxIkrD5d1YRqUP_5qYBoHbxOVk4i-umpv_K_cDF6G2YXOh7ULGdpP_NXteqw=w740-h347-no){:width="700"}
+## 2 displays:
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-h6H8Ou1IfJU/WNR3Fk0rLTI/AAAAAAAAAiY/OMwpMub57Xwi8c726D7qUCDE3IT1JwQlwCPcB/s1600/displaylink-fc24-001.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-h6H8Ou1IfJU/WNR3Fk0rLTI/AAAAAAAAAiY/OMwpMub57Xwi8c726D7qUCDE3IT1JwQlwCPcB/s400/displaylink-fc24-001.png" width="400" height="188" /></a></div>
+![image-title](https://goo.gl/lP0rEg?.jpg){:class="github"}
 
+![image-title](https://goo.gl/L9O5MU?.png){:class="github"}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-_lfwRqQxtjM/WNR3M56_e_I/AAAAAAAAAik/IrWhPLIQ0I8RW27-_fQkSQT2IcbFPG5bwCPcB/s1600/displaylink-fc24-002.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-_lfwRqQxtjM/WNR3M56_e_I/AAAAAAAAAik/IrWhPLIQ0I8RW27-_fQkSQT2IcbFPG5bwCPcB/s400/displaylink-fc24-002.png" width="400" height="222" /></a></div>
+![image-title](https://goo.gl/l8Tq3k?.png){:class="github"}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-wQPxVTh6TRo/WNR33pNS5pI/AAAAAAAAAiw/buXvYrNKwd8SqoVnXHSv6cJqWgRCcIukACPcB/s1600/displaylink-fc24-004.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-wQPxVTh6TRo/WNR33pNS5pI/AAAAAAAAAiw/buXvYrNKwd8SqoVnXHSv6cJqWgRCcIukACPcB/s400/displaylink-fc24-004.png" width="400" height="315" /></a></div>
+## 3 displays
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-TmjUsWaxxZo/WNR38wKCUzI/AAAAAAAAAi4/nYwYmNPNnRsxj4EP_5rFSO5OhayQPSL3ACPcB/s1600/displaylink-fc24-005.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-TmjUsWaxxZo/WNR38wKCUzI/AAAAAAAAAi4/nYwYmNPNnRsxj4EP_5rFSO5OhayQPSL3ACPcB/s640/displaylink-fc24-005.png" width="640" height="234" /></a></div>
+![image-title](https://goo.gl/ujuXR4?.png){:class="github"}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-ACcibjH4enI/WNR48H2dzUI/AAAAAAAAAjY/mJgsDQc-8m8RKAH1TFX318IkhLiTqL00ACPcB/s1600/displaylink-fc24-006.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-ACcibjH4enI/WNR48H2dzUI/AAAAAAAAAjY/mJgsDQc-8m8RKAH1TFX318IkhLiTqL00ACPcB/s400/displaylink-fc24-006.png" width="400" height="146" /></a></div>
+![image-title](https://goo.gl/y2vooE?.png){:class="github"}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-BeEdxu0xtoo/WNR48LVlYpI/AAAAAAAAAjY/A8oDeKWFZX4BN5h0B7uE9EADeWXv6lakwCPcB/s1600/displaylink-fc24-007.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://2.bp.blogspot.com/-BeEdxu0xtoo/WNR48LVlYpI/AAAAAAAAAjY/A8oDeKWFZX4BN5h0B7uE9EADeWXv6lakwCPcB/s400/displaylink-fc24-007.png" width="400" height="280" /></a></div>
+![image-title](https://goo.gl/6CHCF6?.png){:class="github"}
 
-<div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-8MMpz_09pgQ/WNR48PejdZI/AAAAAAAAAjY/xLB335IF1loNMqXM5GKrTNg4gdDuUXAVwCPcB/s1600/displaylink-fc24-008.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-8MMpz_09pgQ/WNR48PejdZI/AAAAAAAAAjY/xLB335IF1loNMqXM5GKrTNg4gdDuUXAVwCPcB/s400/displaylink-fc24-008.png" width="400" height="213" /></a>
-</div>
-
-<div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-BuHQ5lUCQzQ/WNR48GHHvVI/AAAAAAAAAjY/mVXVvjEO8nEDqaOMOwkJzzLDb0BdYZdGACPcB/s1600/displaylink-fc24-009.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://1.bp.blogspot.com/-BuHQ5lUCQzQ/WNR48GHHvVI/AAAAAAAAAjY/mVXVvjEO8nEDqaOMOwkJzzLDb0BdYZdGACPcB/s400/displaylink-fc24-009.png" width="400" height="92" /></a></div>
+![image-title](https://goo.gl/mi6l5m?.png){:class="github"}
